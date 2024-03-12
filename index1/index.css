@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.root {
+    
+}
+
+#box {
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    transition-property:background-color;
+    transition-duration: 5s;
+    
+}
+
+#box:hover {
+    transition:1s;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50px;
+}

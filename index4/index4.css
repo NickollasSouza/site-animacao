@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    animation-name: gradient;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(to right, rgb(85, 211, 250), rgb(10, 229, 245), rgb(11, 240, 190), rgb(15, 248, 139), rgb(21, 253, 117), rgb(15, 245, 15), rgb(179, 255, 0));
+    background-size: 300% 300%;
+
+}
+h1 {
+    color: white;
+    font-size: 30pt;
+    text-align: center;
+    transform: translatey(200px);
+}
+
+@keyframes gradient {
+    0%{
+    background-position:0 50%;
+    }
+
+    50%{
+        background-position:100%, 50%;
+    }
+
+    100%{
+        background-position:0 50%;
+    }
+}
